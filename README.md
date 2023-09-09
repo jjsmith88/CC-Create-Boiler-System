@@ -18,6 +18,56 @@ Each tank has several data points for monitoring and control:
  - Boiler Status:
    - Display Link - Connects to individual tank and displays same boiler status as in game view
 
+Bank 1:
+ - Tank 1:
+  - Lava Pump:
+    - electric_motor_4
+    - scrollBehaviorEntity_3
+  - Lava Tanks:
+    - createaddition:liquid_blaze_burner_1
+    - createaddition:liquid_blaze_burner_2
+  - Water Pump:
+    - electric_motor_6
+    - scrollBehaviorEntity_5
+  - Boiler Status:
+    - create_taget_3 line 1
+ - Tank 2:
+  - Lava Pump:
+    - electric_motor_7
+    - scrollBehaviorEntity_6
+  - Lava Tanks:
+    - createaddition:liquid_blaze_burner_3
+    - createaddition:liquid_blaze_burner_4
+  - Water Pump:
+    - electric_motor_8
+    - scrollBehaviorEntity_7
+  - Boiler Status:
+    - create_taget_3 line 5
+ - Tank 3:
+  - Lava Pump:
+    - electric_motor_9
+    - scrollBehaviorEntity_8
+  - Lava Tanks:
+    - createaddition:liquid_blaze_burner_5
+    - createaddition:liquid_blaze_burner_6
+  - Water Pump:
+    - electric_motor_10
+    - scrollBehaviorEntity_9
+  - Boiler Status:
+    - create_taget_3 line 9
+ - Tank 4:
+  - Lava Pump:
+    - electric_motor_11
+    - scrollBehaviorEntity_10
+  - Lava Tanks:
+    - createaddition:liquid_blaze_burner_7
+    - createaddition:liquid_blaze_burner_8
+  - Water Pump:
+    - electric_motor_12
+    - scrollBehaviorEntity_11
+  - Boiler Status:
+    - create_taget_3 line 13
+
 ## BoilerBankData
 Initial design is to have a program that runs on each bank's computer to broadcast this data per tank over rednet.
 This will allow for additional development onto the pocket computer to monitor and control the boilers. Will need to think
