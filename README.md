@@ -30,7 +30,8 @@ Bank 1:
      - electric_motor_6
      - scrollBehaviorEntity_5
    - Boiler Status:
-     - create_taget_3 line 1
+     - create_target_3 
+     - line 1
  - Tank 2:
    - Lava Pump:
      - electric_motor_7
@@ -42,7 +43,8 @@ Bank 1:
      - electric_motor_8
      - scrollBehaviorEntity_7
    - Boiler Status:
-     - create_taget_3 line 5
+     - create_target_3
+     - line 5
  - Tank 3:
    - Lava Pump:
      - electric_motor_9
@@ -54,7 +56,8 @@ Bank 1:
      - electric_motor_10
      - scrollBehaviorEntity_9
    - Boiler Status:
-     - create_taget_3 line 9
+     - create_target_3
+     - line 9
  - Tank 4:
    - Lava Pump:
      - electric_motor_11
@@ -66,7 +69,8 @@ Bank 1:
      - electric_motor_12
      - scrollBehaviorEntity_11
    - Boiler Status:
-     - create_taget_3 line 13
+     - create_target_3
+     - line 13
 
 ## BoilerBankData
 Initial design is to have a program that runs on each bank's computer to broadcast this data per tank over rednet.
