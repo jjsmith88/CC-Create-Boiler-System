@@ -1,4 +1,4 @@
-local Bank = require('util/BoilerBankData.lua')
+local Bank = require('util/BoilerBankData')
 
 Bank1 = Bank (1)
 

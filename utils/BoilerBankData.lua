@@ -1,5 +1,5 @@
 -- BoilerBankData
-local Tank = require('util/BoilerTankData.lua')
+local Tank = require('util/BoilerTankData')
 BoilerBankData = {bankNumber = 1}
 
 function BoilerBankData:__init__(bankNumber)
