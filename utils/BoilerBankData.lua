@@ -72,3 +72,5 @@ function BoilerBankData:getBankData()
     local tank4 = {self.tanks[4].getLavaPumpData(), self.tanks[4].getLavaTanksData(), self.tanks[4].getWaterPumpData(), self.tanks[4].getBoilerStatusData()}
     return {tank1, tank2, tank3, tank4}
 end
+
+-- TODO generate the setter classes to control the motors and RSC 

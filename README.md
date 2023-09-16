@@ -72,11 +72,14 @@ Bank 1:
      - create_target_3
      - line 13
 
-## BoilerBankData
+## BoilerBankData & BoilerTankData
 Initial design is to have a program that runs on each bank's computer to broadcast this data per tank over rednet.
 This will allow for additional development onto the pocket computer to monitor and control the boilers. Will need to think
 of a way for this class to also control the devices so that the Control program does not need to know the direct devices being
 controlled.
+Implemented design splits the above idea into 2 different classes, Bank and Tank data. Tank data brings together all of the lower 
+level components for a tank. Bank will bring together multiple instances of the Tank class so that the controlling program have a 
+singular class for controll.
 
 ## BoilerBankDataMonitor
 The computers will then also run a program to display the broadcasted information onto the monitors connected to the computer.
